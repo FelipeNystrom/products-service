@@ -1,5 +1,5 @@
 const server = require('express')();
-const serverConfig = require('./serverConfig');
+const serverConfig = require('./_serverConfig');
 const mountRoutes = require('./_routes');
 
 const _port = process.env.PORT || 9001;
