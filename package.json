@@ -1,0 +1,17 @@
+{
+  "name": "products-service",
+  "version": "1.0.0",
+  "description": "service handeling all products ",
+  "main": "server.js ",
+  "author": "Felipe Nystrom <andre.felipe.nystrom@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "kafkajs": "^1.10.0",
+    "nodemon": "^1.19.1",
+    "pg-promise": "^9.0.0",
+    "sanitize": "^2.1.0"
+  }
+}
